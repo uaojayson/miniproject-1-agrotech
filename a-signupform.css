@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+  body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-image: url(images/backgroundimage.jpg);
+    background-size: cover;
+    
+  }
+  .container{
+    border: solid inherit;
+    height: 90vh;
+    background: inherit;
+  
+   
+  
+  }
+
+  .jumbotron{
+    margin-top: 1%;
+  }
+
+  .title{
+    color: white;
+    font-size: 32px;
+    padding-top: 2%;
+    text-shadow:
+    0.05em 0 green,
+    0 0.05em green,
+    -0.05em 0 green,
+    0 -0.05em green,
+    -0.05em -0.05em green,
+    -0.05em 0.05em green,
+    0.05em -0.05em green,
+    0.05em 0.05em green;
+  }
+
+  hr{
+    height: 5%;
+    color: rgb(24, 219, 24);
+ 
+  }
+
+
+form{
+    border: "";
+    margin-top: -4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1%;
+   
+    
+}
+
+.form-check label{
+  color: white;
+  text-shadow:
+  0.05em 0 green,
+  0 0.05em green,
+  -0.05em 0 green,
+  0 -0.05em green,
+  -0.05em -0.05em green,
+  -0.05em 0.05em green,
+  0.05em -0.05em green,
+  0.05em 0.05em green;
+}
+
+.row .col label{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2%;
+  text-shadow:
+  0.05em 0 green,
+  0 0.05em green,
+  -0.05em 0 green,
+  0 -0.05em green,
+  -0.05em -0.05em green,
+  -0.05em 0.05em green,
+  0.05em -0.05em green,
+  0.05em 0.05em green;
+}
+
+.form-check{
+  margin-top: 5%;
+
+}
+
+.form-check-label{
+  font-size: 18px;
+}
+
+.btn-success{
+  margin-top: 2%;
+}
+  
+.btn-success{
+ font-size: larger;
+
+}
+
+p{
+  padding-top: 2%;
+  font-size: 18px;
+color: white;
+  background-color: inherit;
+  text-shadow:
+    0.05em 0 green,
+    0 0.05em green,
+    -0.05em 0 green,
+    0 -0.05em green,
+    -0.05em -0.05em green,
+    -0.05em 0.05em green,
+    0.05em -0.05em green,
+    0.05em 0.05em green;
+}
+a{
+  padding-top: 2%;
+  font-size: 18px;
+color: white;
+  background-color: inherit;
+  text-shadow:
+    0.05em 0 green,
+    0 0.05em green,
+    -0.05em 0 green,
+    0 -0.05em green,
+    -0.05em -0.05em green,
+    -0.05em 0.05em green,
+    0.05em -0.05em green,
+    0.05em 0.05em green;
+
+}
+

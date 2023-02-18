@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi-Page Responsive Crowdfunding Website</title>
+
+    <!--------Bootstrap CDN------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!--------CSS STylesheet------->
+    <link rel="stylesheet" href="b-loginform.css" />
+
+    <!--------Google Fonts------->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--------FONTAWESOME ICONS------>
+    <script
+      src="https://kit.fontawesome.com/3ce7f5ba6a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="header">
+        <!--------HOME ICON------>
+        <div class="jumbotron text-left" style="margin-bottom: 0">
+          <div class="row">
+            <div class="col">
+              <a href="index.html" class="active home-btn"
+                ><i class="fa-solid fa-leaf"></i></i>agrotech ventures</a
+              >
+            </div>
+          </div>
+        </div>
+        <!--------NAVIGATION BAR------>
+  
+        <nav>
+          <!--------MENU BAR------>
+  
+          <div class="nav-links">
+            <ul>
+              <li>
+                <!--------About US------>
+  
+                <div class="dropdown-home">
+                  <a href="index.html">
+                    <button class="dropbtn-home">
+                      <i class="fa-solid fa-house-user"></i></i> HOME
+                      </button
+                  ></a>
+                </div>
+  
+                <div class="dropdown-about">
+                  <a href="#about">
+                    <button class="dropbtn-about">
+                      <i class="fa-solid fa-hands-holding-child"></i> ABOUT US
+                      <i class="fa fa-caret-down"></i></button
+                  ></a>
+  
+                  <div class="dropdown-about-content">
+                    <a href="#about-us">MISSION, VISION, CORE VALUES</a>
+                    <a href="#about-us">OUR STORY</a>
+                  </div>
+                </div>
+                <!--------PORTFOLIO------>
+                <div class="dropdown-port">
+                  <a href="#portfolio">
+                    <button class="dropbtn-port">
+                      <i class="fa-solid fa-building-wheat"></i> OUR PORTFOLIO
+                      <i class="fa fa-caret-down"></i></button
+                  ></a>
+  
+                  <div class="dropdown-port-content">
+                    <a href="#">Our FARMERS and FISHERS</a>
+                    <a href="#">OUR PROJECTS</a>
+          
+                  </div>
+                </div>
+                <!--------INVEST NOW------>
+                <div class="dropdown-inv">
+                  <a href="#invest">
+                    <button class="dropbtn-inv">
+                      <i class="fa-solid fa-handshake-angle"></i>INVEST NOW
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                  </a>
+  
+                  <div class="dropdown-inv-content">
+                    <a href="#">WHY INVEST?</a>
+                    <a href="#">HOW IT WORKS?</a>
+                  </div>
+                </div>
+                <!--------HELP CENTER------>
+                <div class="dropdown-help">
+                  <a href="#helpcenter">
+                    <button class="dropbtn-help">
+                      <i class="fa-solid fa-circle-info"></i> HELP CENTER
+                      <i class="fa fa-caret-down"></i></button
+                  ></a>
+  
+                  <div class="dropdown-help-content">
+                    <a href="#">FREQUENTLY ASKED QUESTIONS</a>
+                    <a href="#">CONTACT CENTER</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        
+        </nav>
+
+          <!--------LOG IN FORM------>
+
+        <div class="container">
+            
+            <div class="col-md-6">
+                <div class="content-frame pt-3 text-center">
+                    <h2 class="text-color-4">Nice to have you, again!</h2>
+                    <hr>
+                    <form class="form-signin form-style" action="#">
+                        <div class="form-group float-label-control mt-3"> <input type="email" class="form-control empty" placeholder="Email Address" name="email" required>
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class="form-group float-label-control mt-2"> <input type="password" class="form-control empty" placeholder="Password" name="password" required>
+                            <label for="password">Password</label>
+                        </div>
+                        <hr>
+
+                        <div class="btn-success">
+                            <button type="submit" class="btn btn-success">
+                              <strong>LOGIN</strong>
+                            </button>
+                          </div>
+                        <br>
+    
+                    </form>
+                    <div id="forgotpane">
+                        <p><a href="#">Forgot Password?</a></p>
+                        <p>Don't have an account?&nbsp<a href="a-signupform.html">Sign up here.</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+  
+    
+  </body>
+</html>
